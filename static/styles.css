@@ -1,0 +1,82 @@
+#page-container
+{
+    background-color:lightgray;
+    position:relative;
+    min-height:100vh;
+}
+#content-wrap
+{
+    padding-bottom:2.5rem;
+
+}
+.pisa
+{
+    display:inline-block;
+    background-color:yellow;
+    color:crimson;
+    font-family:verdana;
+    margin-bottom:20px;
+}
+.nav
+{
+    background-color:lavender;
+}
+.nav-link
+{
+    background-color:lavender;
+    color:slateblue;
+    font-weight:600;
+}
+.container-sup
+{
+    background-color:blueviolet;
+    border-radius:15px 50px;
+    color:white;
+    margin: 2rem auto 2rem;
+    padding:2.5rem;
+
+}
+.parrafos
+{
+background-color:lightsteelblue;
+border-radius: 10px;
+padding:.5rem;
+text-align:justify;
+}
+.footer
+{
+    position:absolute;
+    width:100%;
+    bottom:0;
+    height:2.5rem;
+
+}
+.firstfooter
+{
+    background-color:cadetblue;
+    text-align:center;
+    padding:10px 10px;
+
+
+}
+.secondfooter
+{
+    background-color:darkseagreen;
+    text-align:center;
+    padding:3px 3px;
+    font-size:.8rem;
+
+}
+
+.linkfooter:link
+{
+    color:khaki;
+}
+.linkfooter:visited
+{
+    color:palegoldenrod;
+}
+.linkfooter:hover
+{
+    color:black;
+}
