@@ -1,0 +1,102 @@
+#page-container
+{
+    background-color:lightgray;
+    position:relative;
+    min-height:100vh;
+}
+#content-wrap
+{
+    padding-bottom:5rem;
+}
+header
+{
+    background-color:blueviolet;
+    color:floralwhite;
+    font-size:1.1rem;
+    font-weight:600;
+}
+.nav
+{
+    background-color:lavender;
+}
+.nav-link
+{
+    background-color:lavender;
+    color:slateblue;
+    font-weight:600;
+}
+
+.container
+{
+    margin-top:40px;
+}
+
+.instrucciones
+{
+    background-color:tomato;
+    border-radius:10px;
+    color:white;
+    padding:5px;
+    text-align:justify;
+}
+.titsec
+{
+    text-decoration:underline;
+}
+
+#risotto
+{
+    display:none;
+}
+
+#empanadas
+{
+    display:none;
+}
+
+#panques
+{
+    display:none;
+}
+
+.footer
+{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.parrafos
+{
+    background-color:lightsteelblue;
+    border-radius:10px;
+    padding:.5rem;
+    text-align:justify;
+}
+.firstfooter
+{
+
+    background-color:cadetblue;
+    text-align:center;
+    margin-top:50px;
+    padding:10px 10px;
+    color:black;
+}
+.secondfooter
+{
+    background-color:darkseagreen;
+    text-align:center;
+    padding:5px 5px;
+    font-size:.8rem;
+}
+.linkfooter:link
+{
+    color:khaki;
+}
+.linkfooter:visited
+{
+    color:palegoldenrod;
+}
+.linkfooter:hover
+{
+    color:black;
+}
