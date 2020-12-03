@@ -83,3 +83,8 @@ header
 {
     color:black;
 }
+
+@media (max-width:768px) {
+    .txt-area {
+        width:75%;
+}
