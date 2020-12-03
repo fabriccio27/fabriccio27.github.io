@@ -87,4 +87,8 @@ header
 @media (max-width:768px) {
     .txt-area {
         max-width:75%;
+    }
+}
+textarea {
+    width:100%
 }
