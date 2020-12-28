@@ -34,7 +34,6 @@
     color:white;
     margin: 2rem auto 2rem;
     padding:2.5rem;
-
 }
 .parrafos
 {
@@ -56,8 +55,6 @@ text-align:justify;
     background-color:cadetblue;
     text-align:center;
     padding:10px 10px;
-
-
 }
 .secondfooter
 {
@@ -80,3 +77,10 @@ text-align:justify;
 {
     color:black;
 }
+@media (max-width:600px){
+    
+    .container-sup {
+        width:60vw;
+    }
+}
+    
