@@ -80,3 +80,8 @@ header
 {
     color:black;
 }
+@media (max-width:600px) {
+    .lista-lectura {
+        width:80%;
+    }
+}
