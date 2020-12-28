@@ -83,5 +83,6 @@ header
 @media (max-width:600px) {
     .lista-lectura {
         width:80%;
+        margin:30px auto;
     }
 }
