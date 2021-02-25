@@ -38,7 +38,7 @@
                         <option value="panques">Panqueque de banana sin TACC</option>
                     </select>
                 </div>
-                <div class="container" id="risotto">
+                <div class="container recipe" id="risotto">
                     <h3>Risotto de pollo y hongos</h3>
                     <p class="titsec">Ingredientes: </p>
                     <ul>
@@ -61,7 +61,7 @@
                         agregar dos cucharadas de manteca para mas cremosidad. Dejar derretir con la olla tapada 3 o 5 minutos. Servir con queso rallado.
                     </p>
                 </div>
-                <div class="container" id="empanadas">
+                <div class="container recipe" id="empanadas">
                     <h3>Empanadas de carne cortada a cuchillo</h3>
                     <p class="titsec">Ingredientes: </p>
                     <ul>
@@ -85,7 +85,7 @@
                         Si hace falta, corregir sazón y apagar el fuego. Dejar que se enfríe y agregar los huevos duros pasados por un rayador, o cortados.
                     </p>
                 </div>
-                <div class="container" id="panques">
+                <div class="container recipe" id="panques">
                     <h3>Panqueques de banana sin TACC</h3>
                     <p class="titsec">Ingredientes: </p>
                     <ul>
@@ -109,18 +109,26 @@
             </div>
         </div>
         <script>
+            
+            let recipes = document.querySelectorAll(".recipe");
+
+            function hide_element(elem) {
+                elem.style.display = "none";
+            }
             document.querySelector("select").onchange = function hidediv(){
+                
+                recipes.forEach(hide_element);
                 let chosen = this.value; //either risotto, empanadas or panqueques. Recoge bien el valor
                 let recipe = document.getElementById(chosen);
-                //recipe.style.display = "block";
-                if (recipe.style.display == "block")
+                recipe.style.display = "block";
+                /* if (recipe.style.display == "block")
                 {
                     recipe.style.display = "none";
                 }
                 else
                 {
                     recipe.style.display = "block";
-                }
+                } */
             };
         </script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
