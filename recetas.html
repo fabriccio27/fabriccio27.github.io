@@ -115,10 +115,11 @@
             function hide_element(elem) {
                 elem.style.display = "none";
             }
+            
             document.querySelector("select").onchange = function hidediv(){
                 
                 recipes.forEach(hide_element);
-                let chosen = this.value; //either risotto, empanadas or panqueques. Recoge bien el valor
+                let chosen = this.value; 
                 let recipe = document.getElementById(chosen);
                 recipe.style.display = "block";
             
