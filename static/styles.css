@@ -17,6 +17,13 @@
     font-family:verdana;
     margin-bottom:20px;
 }
+.portfolio__h2 {
+    padding:30px 0;
+}
+.portfolio__link:hover {
+    text-decoration: none;
+    color:blueviolet;
+}
 .nav
 {
     background-color:lavender;
